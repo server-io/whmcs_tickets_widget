@@ -25,20 +25,8 @@ This repository contains a widget for the WHMCS dashboard that displays tickets 
 3. **Copy the widget files to your WHMCS installation:**
 
     ```bash
-    cp -r widget_directory /path/to/whmcs/modules/widgets/
+    cp -r * /path/to/whmcs/
     ```
-
-4. **Ensure the widget is enabled in your WHMCS dashboard.** 
-   - Go to **WHMCS Admin Area** > **Setup** > **Widgets**.
-   - Find the "Tickets Widget" and enable it.
-
-## Configuration
-
-1. **API Credentials:**
-   - Make sure your WHMCS API credentials are correctly configured in the widget settings.
-
-2. **Customization:**
-   - You can adjust the refresh interval or other settings in the widget's configuration file if needed.
 
 ## Usage
 
